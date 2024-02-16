@@ -6,9 +6,9 @@ import QtQuick
      color: 'transparent'
 
      Rectangle {
-         anchors.centerIn: parent
-         width: 100
-         height: 100
+         anchors.fill: parent
+         anchors.margins: 50
+         radius: Math.max(width, height)
          color: 'red'
      }
 }
